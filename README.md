@@ -5,7 +5,7 @@ Colorschemes for CodeMirror – one of the syntax-highlighting applications cont
 > “DuoTone themes use only 2 hues (7 shades in total). It tones down less important parts (like punctuation and brackets) and highlights only the important ones. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”
 
 ### Demo
-Go see [the Demo for CodeMirror](http://atelierbram.github.io/Base2Tone-codemirror/docs/CodeMirror/demo/theme-htmlmixed.html#Base2Tone-Evening-dark).
+Go see [the Demo for CodeMirror](http://atelierbram.github.io/Base2Tone-codemirror/CodeMirror/demo/theme-htmlmixed.html#Base2Tone-Evening-dark).
 
 ### Dependencies
  Some customized commands from the latest fork of Base16 Builder can be found here in an executable bash script (`io.sh`). Read more on this versatile and flexible <abbr title="Command Line Interface">CLI</abbr> building tool [on the Github repo for Base16 Builder](https://github.com/base16-builder/base16-builder), and the many ways to use it from the command-line.

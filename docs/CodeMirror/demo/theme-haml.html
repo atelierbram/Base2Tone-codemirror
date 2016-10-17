@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8"/>
+<title>CodeMirror: Theme Demo - Base2Tone - Haml Mode</title>
+<link rel=stylesheet href="../doc/docs-custom.css">
+ <link rel="stylesheet" href="../theme/base2tone-cave-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-cave-light.css">
+<link rel="stylesheet" href="../theme/base2tone-desert-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-desert-light.css">
+<link rel="stylesheet" href="../theme/base2tone-drawbridge-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-drawbridge-light.css">
+<link rel="stylesheet" href="../theme/base2tone-earth-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-earth-light.css">
+<link rel="stylesheet" href="../theme/base2tone-evening-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-evening-light.css">
+<link rel="stylesheet" href="../theme/base2tone-forest-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-forest-light.css">
+<link rel="stylesheet" href="../theme/base2tone-heath-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-heath-light.css">
+<link rel="stylesheet" href="../theme/base2tone-lake-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-lake-light.css">
+<link rel="stylesheet" href="../theme/base2tone-meadow-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-meadow-light.css">
+<link rel="stylesheet" href="../theme/base2tone-morning-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-morning-light.css">
+<link rel="stylesheet" href="../theme/base2tone-pool-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-pool-light.css">
+<link rel="stylesheet" href="../theme/base2tone-sea-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-sea-light.css">
+<link rel="stylesheet" href="../theme/base2tone-space-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-space-light.css"> 
+<link rel="stylesheet" href="../lib/codemirror.css">
+
+<script src="../lib/codemirror.js"></script>
+<script src="../addon/selection/selection-pointer.js"></script>
+<script src="../mode/xml/xml.js"></script>
+<script src="../mode/htmlmixed/htmlmixed.js"></script>
+<script src="../mode/javascript/javascript.js"></script>
+<script src="../mode/ruby/ruby.js"></script>
+<script src="../mode/haml/haml.js"></script>
+<script src="../addon/selection/active-line.js"></script>
+<script src="../addon/edit/matchbrackets.js"></script>
+<style type="text/css">
+      .CodeMirror {border: 1px solid transparent; font-size:13px}
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="no-index, no-follow">
+  </head>
+  <body>
+<div id=nav>
+  <a href="http://codemirror.net"><h1>CodeMirror</h1></a>
+
+  <ul>
+    <li><a href="https://codemirror.net/index.html">CodeMirror</a></li>
+    <li><a href="https://codemirror.net/doc/manual.html">Manual</a></li>
+    <li><a href="https://github.com/codemirror/codemirror">GitHub</a></li>
+  </ul>
+  <ul>
+    <li><a class=active href="#">Theme</a></li>
+    <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a></li>
+  </ul>
+
+  <h3>Modes</h3>
+  <ul>
+    <li><a href="theme-htmlmixed.html#Base2Tone-Evening-dark">HTML</a></li>
+    <li><a href="theme-css.html#Base2Tone-Evening-dark">CSS</a></li>
+    <li><a href="theme-js.html#Base2Tone-Evening-dark">JavaScript</a></li>
+    <li><a class=active href="#">Haml</a></li>
+    <li><a href="theme-markdown.html#Base2Tone-Evening-dark">Markdown</a></li>
+    <li><a href="theme-slim.html#Base2Tone-Evening-dark">Slim</a></li>
+    <!-- <li><a href="theme-jade.html#Base2Tone-Evening-dark">Jade</a></li> -->
+    <li><a href="theme-coffee.html#Base2Tone-Evening-dark">CoffeeScript</a></li>
+    <li><a href="theme-scss.html#Base2Tone-Evening-dark">Scss</a></li>
+    <li><a href="theme-less.html#Base2Tone-Evening-dark">Less</a></li>
+    <li><a href="theme-sass.html#Base2Tone-Evening-dark">Sass</a></li>
+  </ul>
+</div>
+
+<article>
+  <h2>Theme Demo - Base2Tone - Haml Mode</h2>
+  <form><textarea id="code" name="code">
+!!!
+#content
+.left.column(title="title"){:href => "/hello", :test => "#{hello}_#{world}"}
+    <!-- This is a comment -->
+    %h2 Welcome to our site!
+    %p= puts "HAML MODE"
+  .right.column
+    = render :partial => "sidebar"
+
+.container
+  .row
+    .span8
+      %h1.title= @page_title
+%p.title= @page_title
+%p
+  /
+    The same as HTML comment
+    Hello multiline comment
+
+  -# haml comment
+      This wont be displayed
+      nor will this
+  Date/Time:
+  - now = DateTime.now
+  %strong= now
+  - if now > DateTime.parse("December 31, 2006")
+    = "Happy new " + "year!"
+
+%title
+  = @title
+  \= @title
+  <h1>Title</h1>
+  <h1 title="HELLO">
+    Title
+
+  </h1>
+</textarea> </form>
+<p>Select a theme:</p>
+<div class="button dropdown">
+ <select onchange="selectTheme()" id="select">
+   <option>Base2Tone-Cave-dark</option>
+  <option>Base2Tone-Cave-light</option>
+  <option>Base2Tone-Desert-dark</option>
+  <option>Base2Tone-Desert-light</option>
+  <option>Base2Tone-Drawbridge-dark</option>
+  <option>Base2Tone-Drawbridge-light</option>
+  <option>Base2Tone-Earth-dark</option>
+  <option>Base2Tone-Earth-light</option>
+  <option selected>Base2Tone-Evening-dark</option>
+  <option>Base2Tone-Evening-light</option>
+  <option>Base2Tone-Forest-dark</option>
+  <option>Base2Tone-Forest-light</option>
+  <option>Base2Tone-Heath-dark</option>
+  <option>Base2Tone-Heath-light</option>
+  <option>Base2Tone-Lake-dark</option>
+  <option>Base2Tone-Lake-light</option>
+  <option>Base2Tone-Meadow-dark</option>
+  <option>Base2Tone-Meadow-light</option>
+  <option>Base2Tone-Morning-dark</option>
+  <option>Base2Tone-Morning-light</option>
+  <option>Base2Tone-Pool-dark</option>
+  <option>Base2Tone-Pool-light</option>
+  <option>Base2Tone-Sea-dark</option>
+  <option>Base2Tone-Sea-light</option>
+  <option>Base2Tone-Space-dark</option>
+  <option>Base2Tone-Space-light</option>  
+  </select>
+</div>
+  </p>   
+<script>
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  selectionPointer: true,
+  lineNumbers: true,
+  styleActiveLine: true,
+  matchBrackets: true,
+  mode: "text/x-haml"
+});
+var input = document.getElementById("select");
+function selectTheme() {
+  var theme = input.options[input.selectedIndex].textContent;
+  editor.setOption("theme", theme);
+  location.hash = "#" + theme;
+}
+var choice = (location.hash && location.hash.slice(1)) ||
+(document.location.search &&
+ decodeURIComponent(document.location.search.slice(1)));
+if (choice) {
+  input.value = choice;
+  editor.setOption("theme", choice);
+}
+CodeMirror.on(window, "hashchange", function() {
+  var theme = location.hash.slice(1);
+  if (theme) { input.value = theme; selectTheme(); }
+});
+   WebFontConfig = {
+    google: {
+     families: [ 'Source+Sans+Pro:300,400:latin' ]
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();  
+  </script>
+</article>
+  </body>
+</html>

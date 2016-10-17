@@ -1,0 +1,35 @@
+/*
+Name:   <%- scheme %>
+Author: <%- author %>
+
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
+*/
+
+.cm-s-<%- scheme %>-dark.CodeMirror { background: #<%- base["A0"]["hex"] %>; color: #<%- base["A3"]["hex"] %>; }
+.cm-s-<%- scheme %>-dark div.CodeMirror-selected { background: #<%- base["A2"]["hex"] %>!important; }
+.cm-s-<%- scheme %>-dark .CodeMirror-gutters { background: #<%- base["A0"]["hex"] %>; border-right: 0px; }
+.cm-s-<%- scheme %>-dark .CodeMirror-linenumber { color: #<%- base["A2"]["hex"] %>; }
+
+/* begin cursor */
+.cm-s-<%- scheme %>-dark .CodeMirror-cursor { border-left: 1px solid #<%= base["D4"]["hex"] %>; /* border-left: 1px solid #<%= base["D4"]["hex"] %>80; */ border-right: .5em solid #<%= base["D4"]["hex"] %>; /* border-right: .5em solid #<%= base["D4"]["hex"] %>80; */ opacity: .5; }
+.cm-s-<%- scheme %>-dark .CodeMirror-activeline-background { background: #<%- base["A1"]["hex"] %>; /* background: #<%- base["A1"]["hex"] %>80;  */ opacity: .5;}
+.cm-s-<%- scheme %>-dark .cm-fat-cursor .CodeMirror-cursor { background: #<%= base["D4"]["hex"] %>; /* background: #<%= base["D4"]["hex"] %>80; */ opacity: .5;}
+/* end cursor */
+
+.cm-s-<%- scheme %>-dark span.cm-atom, .cm-s-<%- scheme %>-dark span.cm-number, .cm-s-<%- scheme %>-dark span.cm-keyword, .cm-s-<%- scheme %>-dark span.cm-variable, .cm-s-<%- scheme %>-dark span.cm-attribute, .cm-s-<%- scheme %>-dark span.cm-quote, .cm-s-<%- scheme %>-dark span.cm-hr, .cm-s-<%- scheme %>-dark span.cm-link { color: #<%= base["D7"]["hex"] %>; }
+
+.cm-s-<%- scheme %>-dark span.cm-property { color: #<%= base["B3"]["hex"] %>; }
+.cm-s-<%- scheme %>-dark span.cm-punctuation, .cm-s-<%- scheme %>-dark span.cm-unit, .cm-s-<%- scheme %>-dark span.cm-negative { color: #<%= base["D2"]["hex"] %>; }
+.cm-s-<%- scheme %>-dark span.cm-string { color: #<%= base["D5"]["hex"] %>; }
+.cm-s-<%- scheme %>-dark span.cm-operator { color: #<%= base["D4"]["hex"] %>; }
+.cm-s-<%- scheme %>-dark span.cm-positive { color: #<%= base["B0"]["hex"] %>; }
+
+.cm-s-<%- scheme %>-dark span.cm-variable-2, .cm-s-<%- scheme %>-dark span.cm-variable-3, .cm-s-<%- scheme %>-dark span.cm-string-2, .cm-s-<%- scheme %>-dark span.cm-url { color: #<%= base["B1"]["hex"] %>; }
+.cm-s-<%- scheme %>-dark span.cm-def, .cm-s-<%- scheme %>-dark span.cm-tag, .cm-s-<%- scheme %>-dark span.cm-builtin, .cm-s-<%- scheme %>-dark span.cm-qualifier, .cm-s-<%- scheme %>-dark span.cm-header, .cm-s-<%- scheme %>-dark span.cm-em { color: #<%= base["B7"]["hex"] %>; }
+.cm-s-<%- scheme %>-dark span.cm-bracket, .cm-s-<%- scheme %>-dark span.cm-comment { color: #<%- base["A3"]["hex"] %>; }
+
+/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
+.cm-s-<%- scheme %>-dark span.cm-error, .cm-s-<%- scheme %>-dark span.cm-invalidchar { color: #f00; }
+
+.cm-s-<%- scheme %>-dark span.cm-header { font-weight: normal; }
+.cm-s-<%- scheme %>-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #<%= base["B7"]["hex"] %>!important; }

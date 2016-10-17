@@ -1,0 +1,36 @@
+/*
+Name:   Base2Tone-Drawbridge
+Author: by Bram de Haan, adapted from DuoTone themes by Simurai (http://simurai.com/projects/2016/01/01/duotone-themes)
+
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
+*/
+
+.cm-s-Base2Tone-Drawbridge-dark.CodeMirror { background: #1b1f32; color: #51587b; }
+.cm-s-Base2Tone-Drawbridge-dark div.CodeMirror-selected { background: #444b6f!important; }
+.cm-s-Base2Tone-Drawbridge-dark .CodeMirror-gutters { background: #1b1f32; border-right: 0px; }
+.cm-s-Base2Tone-Drawbridge-dark .CodeMirror-linenumber { color: #444b6f; }
+
+/* begin cursor */
+.cm-s-Base2Tone-Drawbridge-dark .CodeMirror-cursor { border-left: 1px solid #67c9e4; /* border-left: 1px solid #67c9e480; */ border-right: .5em solid #67c9e4; /* border-right: .5em solid #67c9e480; */ opacity: .5; }
+.cm-s-Base2Tone-Drawbridge-dark .CodeMirror-activeline-background { background: #252a41; /* background: #252a4180;  */ opacity: .5;}
+.cm-s-Base2Tone-Drawbridge-dark .cm-fat-cursor .CodeMirror-cursor { background: #67c9e4; /* background: #67c9e480; */ opacity: .5;}
+/* end cursor */
+
+.cm-s-Base2Tone-Drawbridge-dark span.cm-atom, .cm-s-Base2Tone-Drawbridge-dark span.cm-number, .cm-s-Base2Tone-Drawbridge-dark span.cm-keyword, .cm-s-Base2Tone-Drawbridge-dark span.cm-variable, .cm-s-Base2Tone-Drawbridge-dark span.cm-attribute, .cm-s-Base2Tone-Drawbridge-dark span.cm-quote, .cm-s-Base2Tone-Drawbridge-dark span.cm-hr, .cm-s-Base2Tone-Drawbridge-dark span.cm-link { color: #99e9ff; }
+
+.cm-s-Base2Tone-Drawbridge-dark span.cm-property { color: #7289fd; }
+.cm-s-Base2Tone-Drawbridge-dark span.cm-punctuation, .cm-s-Base2Tone-Drawbridge-dark span.cm-unit, .cm-s-Base2Tone-Drawbridge-dark span.cm-negative { color: #4db0cb; }
+.cm-s-Base2Tone-Drawbridge-dark span.cm-string { color: #75d5f0; }
+.cm-s-Base2Tone-Drawbridge-dark span.cm-operator { color: #67c9e4; }
+.cm-s-Base2Tone-Drawbridge-dark span.cm-positive { color: #4961da; }
+
+.cm-s-Base2Tone-Drawbridge-dark span.cm-variable-2, .cm-s-Base2Tone-Drawbridge-dark span.cm-variable-3, .cm-s-Base2Tone-Drawbridge-dark span.cm-string-2, .cm-s-Base2Tone-Drawbridge-dark span.cm-url { color: #516aec; }
+.cm-s-Base2Tone-Drawbridge-dark span.cm-def, .cm-s-Base2Tone-Drawbridge-dark span.cm-tag, .cm-s-Base2Tone-Drawbridge-dark span.cm-builtin, .cm-s-Base2Tone-Drawbridge-dark span.cm-qualifier, .cm-s-Base2Tone-Drawbridge-dark span.cm-header, .cm-s-Base2Tone-Drawbridge-dark span.cm-em { color: #e1e6ff; }
+.cm-s-Base2Tone-Drawbridge-dark span.cm-bracket, .cm-s-Base2Tone-Drawbridge-dark span.cm-comment { color: #51587b; }
+
+/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
+.cm-s-Base2Tone-Drawbridge-dark span.cm-error, .cm-s-Base2Tone-Drawbridge-dark span.cm-invalidchar { color: #f00; }
+
+.cm-s-Base2Tone-Drawbridge-dark span.cm-header { font-weight: normal; }
+.cm-s-Base2Tone-Drawbridge-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #e1e6ff!important; }
+

@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8"/>
+<title>CodeMirror: Theme Demo</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="../doc/docs-custom.css">
+<link rel="stylesheet" href="../lib/codemirror.css">
+
+<link rel="stylesheet" href="../theme/base2tone-cave-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-cave-light.css">
+<link rel="stylesheet" href="../theme/base2tone-desert-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-desert-light.css">
+<link rel="stylesheet" href="../theme/base2tone-drawbridge-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-drawbridge-light.css">
+<link rel="stylesheet" href="../theme/base2tone-earth-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-earth-light.css">
+<link rel="stylesheet" href="../theme/base2tone-evening-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-evening-light.css">
+<link rel="stylesheet" href="../theme/base2tone-forest-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-forest-light.css">
+<link rel="stylesheet" href="../theme/base2tone-heath-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-heath-light.css">
+<link rel="stylesheet" href="../theme/base2tone-lake-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-lake-light.css">
+<link rel="stylesheet" href="../theme/base2tone-meadow-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-meadow-light.css">
+<link rel="stylesheet" href="../theme/base2tone-morning-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-morning-light.css">
+<link rel="stylesheet" href="../theme/base2tone-pool-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-pool-light.css">
+<link rel="stylesheet" href="../theme/base2tone-sea-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-sea-light.css">
+<link rel="stylesheet" href="../theme/base2tone-space-dark.css">
+<link rel="stylesheet" href="../theme/base2tone-space-light.css">
+<!-- <link rel="stylesheet" href="../lib/codemirror.css"> -->
+<!-- <link rel="stylesheet" href="../theme/3024-day.css"> -->
+<!-- <link rel="stylesheet" href="../theme/3024-night.css"> -->
+<!-- <link rel="stylesheet" href="../theme/abcdef.css"> -->
+<!-- <link rel="stylesheet" href="../theme/ambiance.css"> -->
+<!-- <link rel="stylesheet" href="../theme/base16-dark.css"> -->
+<!-- <link rel="stylesheet" href="../theme/bespin.css"> -->
+<!-- <link rel="stylesheet" href="../theme/base16-light.css"> -->
+<!-- <link rel="stylesheet" href="../theme/blackboard.css"> -->
+<!-- <link rel="stylesheet" href="../theme/cobalt.css"> -->
+<!-- <link rel="stylesheet" href="../theme/colorforth.css"> -->
+<!-- <link rel="stylesheet" href="../theme/dracula.css"> -->
+<!-- <link rel="stylesheet" href="../theme/eclipse.css"> -->
+<!-- <link rel="stylesheet" href="../theme/elegant.css"> -->
+<!-- <link rel="stylesheet" href="../theme/erlang-dark.css"> -->
+<!-- <link rel="stylesheet" href="../theme/hopscotch.css"> -->
+<!-- <link rel="stylesheet" href="../theme/icecoder.css"> -->
+<!-- <link rel="stylesheet" href="../theme/isotope.css"> -->
+<!-- <link rel="stylesheet" href="../theme/lesser-dark.css"> -->
+<!-- <link rel="stylesheet" href="../theme/liquibyte.css"> -->
+<!-- <link rel="stylesheet" href="../theme/material.css"> -->
+<!-- <link rel="stylesheet" href="../theme/mbo.css"> -->
+<!-- <link rel="stylesheet" href="../theme/mdn-like.css"> -->
+<!-- <link rel="stylesheet" href="../theme/midnight.css"> -->
+<!-- <link rel="stylesheet" href="../theme/monokai.css"> -->
+<!-- <link rel="stylesheet" href="../theme/neat.css"> -->
+<!-- <link rel="stylesheet" href="../theme/neo.css"> -->
+<!-- <link rel="stylesheet" href="../theme/night.css"> -->
+<!-- <link rel="stylesheet" href="../theme/panda-syntax.css"> -->
+<!-- <link rel="stylesheet" href="../theme/paraiso-dark.css"> -->
+<!-- <link rel="stylesheet" href="../theme/paraiso-light.css"> -->
+<!-- <link rel="stylesheet" href="../theme/pastel-on-dark.css"> -->
+<!-- <link rel="stylesheet" href="../theme/railscasts.css"> -->
+<!-- <link rel="stylesheet" href="../theme/rubyblue.css"> -->
+<!-- <link rel="stylesheet" href="../theme/seti.css"> -->
+<!-- <link rel="stylesheet" href="../theme/solarized.css"> -->
+<!-- <link rel="stylesheet" href="../theme/the-matrix.css"> -->
+<!-- <link rel="stylesheet" href="../theme/tomorrow-night-bright.css"> -->
+<!-- <link rel="stylesheet" href="../theme/tomorrow-night-eighties.css"> -->
+<!-- <link rel="stylesheet" href="../theme/ttcn.css"> -->
+<!-- <link rel="stylesheet" href="../theme/twilight.css"> -->
+<!-- <link rel="stylesheet" href="../theme/vibrant-ink.css"> -->
+<!-- <link rel="stylesheet" href="../theme/xq-dark.css"> -->
+<!-- <link rel="stylesheet" href="../theme/xq-light.css"> -->
+<!-- <link rel="stylesheet" href="../theme/yeti.css"> -->
+<!-- <link rel="stylesheet" href="../theme/zenburn.css"> -->
+<script src="../lib/codemirror.js"></script>
+<script src="../mode/javascript/javascript.js"></script>
+<script src="../addon/selection/active-line.js"></script>
+<script src="../addon/edit/matchbrackets.js"></script>
+<style type="text/css">
+      .CodeMirror {border: 1px solid black; font-size:13px}
+    </style>
+<style type="text/css">
+ .CodeMirror {border: 1px solid transparent; font-size:13px}
+</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="no-index, no-follow">
+  </head>
+  <body>
+<div id="nav">
+  <a href="http://codemirror.net"><h1>CodeMirror</h1><img id="logo" src="../doc/logo.png"></a>
+
+  <ul>
+    <li><a href="https://codemirror.net/doc/manual.html">Manual</a></li>
+    <li><a href="https://github.com/codemirror/codemirror">CodeMirror on GitHub</a></li>
+  </ul>
+  <ul>
+    <li><a class=active href="#">Theme</a></li>
+    <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a></li>
+  </ul>
+
+  <h3>Modes</h3>
+  <ul>
+    <li><a href="theme-htmlmixed.html#Base2Tone-Evening-dark">HTML</a></li>
+    <li><a href="theme-css.html#Base2Tone-Evening-dark">CSS</a></li>
+    <li><a href="theme-js.html#Base2Tone-Evening-dark">JavaScript</a></li>
+    <li><a href="theme-haml.html#Base2Tone-Evening-dark">Haml</a></li>
+    <li><a href="theme-markdown.html#Base2Tone-Evening-dark">Markdown</a></li>
+    <li><a href="theme-slim.html#Base2Tone-Evening-dark">Slim</a></li>
+    <!-- <li><a href="theme-jade.html#Base2Tone-Evening-dark">Jade</a></li> -->
+    <li><a href="theme-scss.html#Base2Tone-Evening-dark">Scss</a></li>
+    <li><a href="theme-less.html#Base2Tone-Evening-dark">Less</a></li>
+    <li><a href="theme-sass.html#Base2Tone-Evening-dark">Sass</a></li>
+    <li><a href="theme-coffee.html#Base2Tone-Evening-dark">CoffeeScript</a></li>
+  </ul>
+</div>
+
+<article>
+<h2>Theme Demo</h2>
+<form><textarea id="code" name="code">
+function findSequence(goal) {
+  function find(start, history) {
+    if (start == goal)
+      return history;
+    else if (start > goal)
+      return null;
+    else
+      return find(start + 5, "(" + history + " + 5)") ||
+             find(start * 3, "(" + history + " * 3)");
+  }
+  return find(1, "1");
+}</textarea></form>
+
+<p>Select a theme:</p>
+<div class="button dropdown">
+ <select onchange="selectTheme()" id="select">
+  <option>Base2Tone-Cave-dark</option>
+  <option>Base2Tone-Cave-light</option>
+  <option>Base2Tone-Desert-dark</option>
+  <option>Base2Tone-Desert-light</option>
+  <option>Base2Tone-Drawbridge-dark</option>
+  <option>Base2Tone-Drawbridge-light</option>
+  <option>Base2Tone-Earth-dark</option>
+  <option>Base2Tone-Earth-light</option>
+  <option selected>Base2Tone-Evening-dark</option>
+  <option>Base2Tone-Evening-light</option>
+  <option>Base2Tone-Forest-dark</option>
+  <option>Base2Tone-Forest-light</option>
+  <option>Base2Tone-Heath-dark</option>
+  <option>Base2Tone-Heath-light</option>
+  <option>Base2Tone-Lake-dark</option>
+  <option>Base2Tone-Lake-light</option>
+  <option>Base2Tone-Meadow-dark</option>
+  <option>Base2Tone-Meadow-light</option>
+  <option>Base2Tone-Morning-dark</option>
+  <option>Base2Tone-Morning-light</option>
+  <option>Base2Tone-Pool-dark</option>
+  <option>Base2Tone-Pool-light</option>
+  <option>Base2Tone-Sea-dark</option>
+  <option>Base2Tone-Sea-light</option>
+  <option>Base2Tone-Space-dark</option>
+  <option>Base2Tone-Space-light</option>
+  <!--  <option>default</option> -->
+  <!--  <option>3024-day</option> -->
+  <!--  <option>3024-night</option> -->
+  <!--  <option>abcdef</option> -->
+  <!--  <option>ambiance</option> -->
+  <!--  <option>base16-dark</option> -->
+  <!--  <option>base16-light</option> -->
+  <!--  <option>bespin</option> -->
+  <!--  <option>blackboard</option> -->
+  <!--  <option>cobalt</option> -->
+  <!--  <option>colorforth</option> -->
+  <!--  <option>dracula</option> -->
+  <!--  <option>eclipse</option> -->
+  <!--  <option>elegant</option> -->
+  <!--  <option>erlang-dark</option> -->
+  <!--  <option>hopscotch</option> -->
+  <!--  <option>icecoder</option> -->
+  <!--  <option>isotope</option> -->
+  <!--  <option>lesser-dark</option> -->
+  <!--  <option>liquibyte</option> -->
+  <!--  <option>material</option> -->
+  <!--  <option>mbo</option> -->
+  <!--  <option>mdn-like</option> -->
+  <!--  <option>midnight</option> -->
+  <!--  <option>monokai</option> -->
+  <!--  <option>neat</option> -->
+  <!--  <option>neo</option> -->
+  <!--  <option>night</option> -->
+  <!--  <option>panda-syntax</option> -->
+  <!--  <option>paraiso-dark</option> -->
+  <!--  <option>paraiso-light</option> -->
+  <!--  <option>pastel-on-dark</option> -->
+  <!--  <option>railscasts</option> -->
+  <!--  <option>rubyblue</option> -->
+  <!--  <option>seti</option> -->
+  <!--  <option>solarized dark</option> -->
+  <!--  <option>solarized light</option> -->
+  <!--  <option>the-matrix</option> -->
+  <!--  <option>tomorrow-night-bright</option> -->
+  <!--  <option>tomorrow-night-eighties</option> -->
+  <!--  <option>ttcn</option> -->
+  <!--  <option>twilight</option> -->
+  <!--  <option>vibrant-ink</option> -->
+  <!--  <option>xq-dark</option> -->
+  <!--  <option>xq-light</option> -->
+  <!--  <option>yeti</option> -->
+  <!--  <option>zenburn</option> -->
+</select>
+</div>
+  </article>
+
+<script>
+  var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+    lineNumbers: true,
+    styleActiveLine: true,
+    matchBrackets: true
+  });
+  var input = document.getElementById("select");
+  function selectTheme() {
+    var theme = input.options[input.selectedIndex].textContent;
+    editor.setOption("theme", theme);
+    location.hash = "#" + theme;
+  }
+  var choice = (location.hash && location.hash.slice(1)) ||
+               (document.location.search &&
+                decodeURIComponent(document.location.search.slice(1)));
+  if (choice) {
+    input.value = choice;
+    editor.setOption("theme", choice);
+  }
+  CodeMirror.on(window, "hashchange", function() {
+    var theme = location.hash.slice(1);
+    if (theme) { input.value = theme; selectTheme(); }
+  });
+  WebFontConfig = {
+    google: {
+     families: [ 'Source+Sans+Pro:300,400:latin' ]
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); 
+</script>
+  </body>
+</html>

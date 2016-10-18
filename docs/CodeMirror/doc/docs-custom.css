@@ -449,6 +449,10 @@ option {
   background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
 }
 
+.github-corner:hover svg {
+  fill: #1a1a1a !important;
+}
+
 ::-webkit-scrollbar {
   width: .75em;
   height: .75em;

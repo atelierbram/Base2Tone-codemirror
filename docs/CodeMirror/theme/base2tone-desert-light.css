@@ -18,7 +18,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 .cm-s-Base2Tone-Desert-light span.cm-atom, .cm-s-Base2Tone-Desert-light span.cm-number, .cm-s-Base2Tone-Desert-light span.cm-keyword, .cm-s-Base2Tone-Desert-light span.cm-variable, .cm-s-Base2Tone-Desert-light span.cm-attribute, .cm-s-Base2Tone-Desert-light span.cm-quote, .cm-s-duotone-light-light span.cm-hr, .cm-s-duotone-light-light span.cm-link { color: #5c523d; }
 
-.cm-s-Base2Tone-Desert-light span.cm-property { color: #ec9255; }
+.cm-s-Base2Tone-Desert-light span.cm-property { color: #dd7c3c; }
 .cm-s-Base2Tone-Desert-light span.cm-punctuation, .cm-s-Base2Tone-Desert-light span.cm-unit, .cm-s-Base2Tone-Desert-light span.cm-negative { color: #5c523d; }
 .cm-s-Base2Tone-Desert-light span.cm-string, .cm-s-Base2Tone-Desert-light span.cm-operator { color: #816f4b; }
 .cm-s-Base2Tone-Desert-light span.cm-positive { color: #dd7c3c; }

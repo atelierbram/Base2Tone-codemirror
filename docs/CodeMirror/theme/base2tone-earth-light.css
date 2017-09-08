@@ -18,7 +18,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 .cm-s-Base2Tone-Earth-light span.cm-atom, .cm-s-Base2Tone-Earth-light span.cm-number, .cm-s-Base2Tone-Earth-light span.cm-keyword, .cm-s-Base2Tone-Earth-light span.cm-variable, .cm-s-Base2Tone-Earth-light span.cm-attribute, .cm-s-Base2Tone-Earth-light span.cm-quote, .cm-s-duotone-light-light span.cm-hr, .cm-s-duotone-light-light span.cm-link { color: #6f5849; }
 
-.cm-s-Base2Tone-Earth-light span.cm-property { color: #d9b154; }
+.cm-s-Base2Tone-Earth-light span.cm-property { color: #bfa05a; }
 .cm-s-Base2Tone-Earth-light span.cm-punctuation, .cm-s-Base2Tone-Earth-light span.cm-unit, .cm-s-Base2Tone-Earth-light span.cm-negative { color: #6f5849; }
 .cm-s-Base2Tone-Earth-light span.cm-string, .cm-s-Base2Tone-Earth-light span.cm-operator { color: #816d5f; }
 .cm-s-Base2Tone-Earth-light span.cm-positive { color: #bfa05a; }

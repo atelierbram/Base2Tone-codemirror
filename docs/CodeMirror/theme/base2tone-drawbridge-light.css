@@ -18,7 +18,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 .cm-s-Base2Tone-Drawbridge-light span.cm-atom, .cm-s-Base2Tone-Drawbridge-light span.cm-number, .cm-s-Base2Tone-Drawbridge-light span.cm-keyword, .cm-s-Base2Tone-Drawbridge-light span.cm-variable, .cm-s-Base2Tone-Drawbridge-light span.cm-attribute, .cm-s-Base2Tone-Drawbridge-light span.cm-quote, .cm-s-duotone-light-light span.cm-hr, .cm-s-duotone-light-light span.cm-link { color: #4961da; }
 
-.cm-s-Base2Tone-Drawbridge-light span.cm-property { color: #67c9e4; }
+.cm-s-Base2Tone-Drawbridge-light span.cm-property { color: #4db0cb; }
 .cm-s-Base2Tone-Drawbridge-light span.cm-punctuation, .cm-s-Base2Tone-Drawbridge-light span.cm-unit, .cm-s-Base2Tone-Drawbridge-light span.cm-negative { color: #4961da; }
 .cm-s-Base2Tone-Drawbridge-light span.cm-string, .cm-s-Base2Tone-Drawbridge-light span.cm-operator { color: #627af4; }
 .cm-s-Base2Tone-Drawbridge-light span.cm-positive { color: #4db0cb; }

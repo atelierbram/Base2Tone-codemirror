@@ -18,7 +18,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 .cm-s-Base2Tone-Meadow-light span.cm-atom, .cm-s-Base2Tone-Meadow-light span.cm-number, .cm-s-Base2Tone-Meadow-light span.cm-keyword, .cm-s-Base2Tone-Meadow-light span.cm-variable, .cm-s-Base2Tone-Meadow-light span.cm-attribute, .cm-s-Base2Tone-Meadow-light span.cm-quote, .cm-s-duotone-light-light span.cm-hr, .cm-s-duotone-light-light span.cm-link { color: #1b6498; }
 
-.cm-s-Base2Tone-Meadow-light span.cm-property { color: #80bf40; }
+.cm-s-Base2Tone-Meadow-light span.cm-property { color: #66a329; }
 .cm-s-Base2Tone-Meadow-light span.cm-punctuation, .cm-s-Base2Tone-Meadow-light span.cm-unit, .cm-s-Base2Tone-Meadow-light span.cm-negative { color: #1b6498; }
 .cm-s-Base2Tone-Meadow-light span.cm-string, .cm-s-Base2Tone-Meadow-light span.cm-operator { color: #277fbe; }
 .cm-s-Base2Tone-Meadow-light span.cm-positive { color: #66a329; }

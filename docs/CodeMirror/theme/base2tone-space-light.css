@@ -18,7 +18,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 .cm-s-Base2Tone-Space-light span.cm-atom, .cm-s-Base2Tone-Space-light span.cm-number, .cm-s-Base2Tone-Space-light span.cm-keyword, .cm-s-Base2Tone-Space-light span.cm-variable, .cm-s-Base2Tone-Space-light span.cm-attribute, .cm-s-Base2Tone-Space-light span.cm-quote, .cm-s-duotone-light-light span.cm-hr, .cm-s-duotone-light-light span.cm-link { color: #5151e6; }
 
-.cm-s-Base2Tone-Space-light span.cm-property { color: #ec7336; }
+.cm-s-Base2Tone-Space-light span.cm-property { color: #dd672c; }
 .cm-s-Base2Tone-Space-light span.cm-punctuation, .cm-s-Base2Tone-Space-light span.cm-unit, .cm-s-Base2Tone-Space-light span.cm-negative { color: #5151e6; }
 .cm-s-Base2Tone-Space-light span.cm-string, .cm-s-Base2Tone-Space-light span.cm-operator { color: #7676f4; }
 .cm-s-Base2Tone-Space-light span.cm-positive { color: #dd672c; }

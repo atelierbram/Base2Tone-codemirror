@@ -18,13 +18,13 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 .cm-s-Base2Tone-Morning-dark span.cm-atom, .cm-s-Base2Tone-Morning-dark span.cm-number, .cm-s-Base2Tone-Morning-dark span.cm-keyword, .cm-s-Base2Tone-Morning-dark span.cm-variable, .cm-s-Base2Tone-Morning-dark span.cm-attribute, .cm-s-Base2Tone-Morning-dark span.cm-quote, .cm-s-Base2Tone-Morning-dark span.cm-hr, .cm-s-Base2Tone-Morning-dark span.cm-link { color: #e5ddcd; }
 
-.cm-s-Base2Tone-Morning-dark span.cm-property { color: #3d75e6; }
+.cm-s-Base2Tone-Morning-dark span.cm-property { color: #93abdc; }
 .cm-s-Base2Tone-Morning-dark span.cm-punctuation, .cm-s-Base2Tone-Morning-dark span.cm-unit, .cm-s-Base2Tone-Morning-dark span.cm-negative { color: #896724; }
 .cm-s-Base2Tone-Morning-dark span.cm-string { color: #c6b28b; }
 .cm-s-Base2Tone-Morning-dark span.cm-operator { color: #b29762; }
 .cm-s-Base2Tone-Morning-dark span.cm-positive { color: #063289; }
 
-.cm-s-Base2Tone-Morning-dark span.cm-variable-2, .cm-s-Base2Tone-Morning-dark span.cm-variable-3, .cm-s-Base2Tone-Morning-dark span.cm-string-2, .cm-s-Base2Tone-Morning-dark span.cm-url { color: #0b3c9d; }
+.cm-s-Base2Tone-Morning-dark span.cm-variable-2, .cm-s-Base2Tone-Morning-dark span.cm-variable-3, .cm-s-Base2Tone-Morning-dark span.cm-string-2, .cm-s-Base2Tone-Morning-dark span.cm-url { color: #3d75e6; }
 .cm-s-Base2Tone-Morning-dark span.cm-def, .cm-s-Base2Tone-Morning-dark span.cm-tag, .cm-s-Base2Tone-Morning-dark span.cm-builtin, .cm-s-Base2Tone-Morning-dark span.cm-qualifier, .cm-s-Base2Tone-Morning-dark span.cm-header, .cm-s-Base2Tone-Morning-dark span.cm-em { color: #dee6f7; }
 .cm-s-Base2Tone-Morning-dark span.cm-bracket, .cm-s-Base2Tone-Morning-dark span.cm-comment { color: #656e81; }
 

@@ -1,45 +1,51 @@
 <!doctype html>
 <html lang="en">
   <head>
-<meta charset="utf-8">
-<title>CodeMirror: Theme Demo - Base2Tone - LESS mode</title>
-<link rel=stylesheet href="../doc/docs-custom.css">
-<link rel="stylesheet" href="../lib/codemirror.css">
-<link rel="stylesheet" href="../addon/hint/show-hint.css">
-<link rel="stylesheet" href="../theme/base2tone-cave-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-cave-light.css">
-<link rel="stylesheet" href="../theme/base2tone-desert-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-desert-light.css">
-<link rel="stylesheet" href="../theme/base2tone-drawbridge-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-drawbridge-light.css">
-<link rel="stylesheet" href="../theme/base2tone-earth-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-earth-light.css">
-<link rel="stylesheet" href="../theme/base2tone-evening-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-evening-light.css">
-<link rel="stylesheet" href="../theme/base2tone-forest-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-forest-light.css">
-<link rel="stylesheet" href="../theme/base2tone-heath-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-heath-light.css">
-<link rel="stylesheet" href="../theme/base2tone-lake-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-lake-light.css">
-<link rel="stylesheet" href="../theme/base2tone-meadow-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-meadow-light.css">
-<link rel="stylesheet" href="../theme/base2tone-morning-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-morning-light.css">
-<link rel="stylesheet" href="../theme/base2tone-pool-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-pool-light.css">
-<link rel="stylesheet" href="../theme/base2tone-sea-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-sea-light.css">
-<link rel="stylesheet" href="../theme/base2tone-space-dark.css">
-<link rel="stylesheet" href="../theme/base2tone-space-light.css">
-<style>.CodeMirror {border: 1px solid transparent; font-size:13px}</style>
+    <meta charset="utf-8">
+    <title>CodeMirror: Theme Demo - Base2Tone - LESS mode</title>
+    <link rel=stylesheet href="../doc/docs-custom.css">
+    <link rel="stylesheet" href="../lib/codemirror.css">
+    <link rel="stylesheet" href="../addon/hint/show-hint.css">
+    <link rel="stylesheet" href="../theme/base2tone-cave-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-cave-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-desert-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-desert-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-drawbridge-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-drawbridge-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-earth-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-earth-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-evening-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-evening-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-forest-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-forest-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-garden-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-garden-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-heath-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-heath-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-lake-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-lake-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-lavender-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-lavender-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-meadow-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-meadow-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-morning-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-morning-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-pool-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-pool-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-sea-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-sea-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-space-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-space-light.css">
+    <link rel="stylesheet" href="../theme/base2tone-suburb-dark.css">
+    <link rel="stylesheet" href="../theme/base2tone-suburb-light.css">
+    <style>.CodeMirror {border: 1px solid transparent; font-size:13px}</style>
 
-<script src="../lib/codemirror.js"></script>
-<script src="../mode/css/css.js"></script>
-<script src="../addon/hint/show-hint.js"></script>
-<script src="../addon/hint/css-hint.js"></script>
-<script src="../addon/selection/active-line.js"></script>
-<script src="../addon/edit/matchbrackets.js"></script>
+    <script src="../lib/codemirror.js"></script>
+    <script src="../mode/css/css.js"></script>
+    <script src="../addon/hint/show-hint.js"></script>
+    <script src="../addon/hint/css-hint.js"></script>
+    <script src="../addon/selection/active-line.js"></script>
+    <script src="../addon/edit/matchbrackets.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -203,10 +209,14 @@ fieldset span button, fieldset span input[type="file"] {
   <option>Base2Tone-Evening-light</option>
   <option>Base2Tone-Forest-dark</option>
   <option>Base2Tone-Forest-light</option>
+  <option>Base2Tone-Garden-dark</option>
+  <option>Base2Tone-Garden-light</option>
   <option>Base2Tone-Heath-dark</option>
   <option>Base2Tone-Heath-light</option>
   <option>Base2Tone-Lake-dark</option>
   <option>Base2Tone-Lake-light</option>
+  <option>Base2Tone-Lavender-dark</option>
+  <option>Base2Tone-Lavender-light</option>
   <option>Base2Tone-Meadow-dark</option>
   <option>Base2Tone-Meadow-light</option>
   <option>Base2Tone-Morning-dark</option>
@@ -217,6 +227,8 @@ fieldset span button, fieldset span input[type="file"] {
   <option>Base2Tone-Sea-light</option>
   <option>Base2Tone-Space-dark</option>
   <option>Base2Tone-Space-light</option>
+  <option>Base2Tone-Suburb-dark</option>
+  <option>Base2Tone-Suburb-light</option> 
   </select>
 </div>
   <script>

@@ -1,0 +1,36 @@
+/*
+Name:   Base2Tone-Garden
+Author: by Bram de Haan, adapted from DuoTone themes by Simurai (http://simurai.com/projects/2016/01/01/duotone-themes)
+
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
+*/
+
+.cm-s-Base2Tone-Garden-dark.CodeMirror { background: #1e1f1e; color: #5d605c; }
+.cm-s-Base2Tone-Garden-dark div.CodeMirror-selected { background: #505350!important; }
+.cm-s-Base2Tone-Garden-dark .CodeMirror-gutters { background: #1e1f1e; border-right: 0px; }
+.cm-s-Base2Tone-Garden-dark .CodeMirror-linenumber { color: #505350; }
+
+/* begin cursor */
+.cm-s-Base2Tone-Garden-dark .CodeMirror-cursor { border-left: 1px solid #db9257; /* border-left: 1px solid #db925780; */ border-right: .5em solid #db9257; /* border-right: .5em solid #db925780; */ opacity: .5; }
+.cm-s-Base2Tone-Garden-dark .CodeMirror-activeline-background { background: #2b2c2a; /* background: #2b2c2a80;  */ opacity: .5;}
+.cm-s-Base2Tone-Garden-dark .cm-fat-cursor .CodeMirror-cursor { background: #db9257; /* background: #db925780; */ opacity: .5;}
+/* end cursor */
+
+.cm-s-Base2Tone-Garden-dark span.cm-atom, .cm-s-Base2Tone-Garden-dark span.cm-number, .cm-s-Base2Tone-Garden-dark span.cm-keyword, .cm-s-Base2Tone-Garden-dark span.cm-variable, .cm-s-Base2Tone-Garden-dark span.cm-attribute, .cm-s-Base2Tone-Garden-dark span.cm-quote, .cm-s-Base2Tone-Garden-dark span.cm-hr, .cm-s-Base2Tone-Garden-dark span.cm-link { color: #e0cab8; }
+
+.cm-s-Base2Tone-Garden-dark span.cm-property { color: #4cb946; }
+.cm-s-Base2Tone-Garden-dark span.cm-punctuation, .cm-s-Base2Tone-Garden-dark span.cm-unit, .cm-s-Base2Tone-Garden-dark span.cm-negative { color: #d97726; }
+.cm-s-Base2Tone-Garden-dark span.cm-string { color: #dba070; }
+.cm-s-Base2Tone-Garden-dark span.cm-operator { color: #db9257; }
+.cm-s-Base2Tone-Garden-dark span.cm-positive { color: #1c8217; }
+
+.cm-s-Base2Tone-Garden-dark span.cm-variable-2, .cm-s-Base2Tone-Garden-dark span.cm-variable-3, .cm-s-Base2Tone-Garden-dark span.cm-string-2, .cm-s-Base2Tone-Garden-dark span.cm-url { color: #25931f; }
+.cm-s-Base2Tone-Garden-dark span.cm-def, .cm-s-Base2Tone-Garden-dark span.cm-tag, .cm-s-Base2Tone-Garden-dark span.cm-builtin, .cm-s-Base2Tone-Garden-dark span.cm-qualifier, .cm-s-Base2Tone-Garden-dark span.cm-header, .cm-s-Base2Tone-Garden-dark span.cm-em { color: #dcf0db; }
+.cm-s-Base2Tone-Garden-dark span.cm-bracket, .cm-s-Base2Tone-Garden-dark span.cm-comment { color: #5d605c; }
+
+/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
+.cm-s-Base2Tone-Garden-dark span.cm-error, .cm-s-Base2Tone-Garden-dark span.cm-invalidchar { color: #f00; }
+
+.cm-s-Base2Tone-Garden-dark span.cm-header { font-weight: normal; }
+.cm-s-Base2Tone-Garden-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #dcf0db!important; }
+
